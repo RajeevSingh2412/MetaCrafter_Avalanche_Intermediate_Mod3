@@ -4,7 +4,7 @@ This Solidity program is a simple "TOKEN CONTRACT" that represents the great Ind
 
 ## DESCRIPTION
 
-This program is a basic smart contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. The contract represents a token named "VEDIC TOKEN" with the symbol "VED" and includes functionalities to mint (create) and burn (destroy) tokens, which affects the total supply.
+This program is a smart contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. The contract represents a token named "VEDIC TOKEN" with the symbol "VED" and includes functionalities to mint (create) and burn (destroy) tokens, which affects the total supply using OpenZeppelin ERC20 implementation.
 Additionally, it uses a mapping of addresses to balances, which enables the contract to keep track of the balance of VED tokens held by each address. The contract also allows for token transfers between addresses
 
 ## Getting Started
